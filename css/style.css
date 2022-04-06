@@ -13,6 +13,11 @@ header {
     align-items: center;
 }
 
+button:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
 
 button {
     background-color: white;
