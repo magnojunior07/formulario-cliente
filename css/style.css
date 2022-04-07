@@ -26,6 +26,7 @@ button:hover {
     background-color: black;
     color: white;
     border-color: white;
+    text-decoration: underline;
 }
 
 button {
