@@ -1,9 +1,34 @@
-header {
+body {
     font-family: "Roboto", monospace;
+}
+
+header {
     background-color: black;
     padding: 10px;
     margin: -10px -10px;
     margin-bottom: 10px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    font-size: 20px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    width: 350px;
+}
+
+.formulario-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .cabecalho {
@@ -11,4 +36,26 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+input[type="file"] {
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    display: none;
+}
+
+#comp-endereco:hover {
+    background-color: rgb(24, 24, 24);
+}
+
+#comp-endereco {
+    font-size: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
