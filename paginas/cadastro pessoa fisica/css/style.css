@@ -25,6 +25,7 @@ input {
 }
 
 .formulario-container {
+    font-weight: bolder;
     display: flex;
     flex-direction: column;
     justify-content: center;
