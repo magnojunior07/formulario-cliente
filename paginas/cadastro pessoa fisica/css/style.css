@@ -47,6 +47,12 @@ input[type="file"] {
     display: none;
 }
 
+#comp-endereco:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
 #comp-endereco {
     font-size: 15px;
     padding: 10px;
@@ -54,4 +60,5 @@ input[type="file"] {
     cursor: pointer;
     background-color: black;
     color: white;
+    border-color: black;
 }
