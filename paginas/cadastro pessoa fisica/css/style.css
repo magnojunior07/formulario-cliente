@@ -39,13 +39,23 @@ input {
     align-items: center;
 }
 
-input[type="file"] {
-    padding: 10px;
-    text-transform: uppercase;
+.radio-container {
+    width: 30%;
+    white-space: nowrap;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    background-color: black;
-    color: white;
+}
+
+input[type="file"] {
     display: none;
+}
+
+input[type="date"] {
+    cursor: text;
 }
 
 #comp-endereco:hover {
@@ -53,7 +63,8 @@ input[type="file"] {
 }
 
 #comp-endereco {
-    font-size: 15px;
+    margin-top: 5px;
+    font-size: 12px;
     padding: 10px;
     text-transform: uppercase;
     cursor: pointer;

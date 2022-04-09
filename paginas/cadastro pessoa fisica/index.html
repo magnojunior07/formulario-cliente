@@ -19,6 +19,12 @@
         </label>
             <br>
         <input type="text" id="nome" placeholder="Digite seu nome completo"/>
+        
+        <label for="nasc">
+            Data de nascimento
+        </label>
+            <br>
+        <input type="date" id="nasc">
         <label for="cpf">
             CPF
         </label>
@@ -56,7 +62,18 @@
             Anexar arquivo
         </label>
         <br>
-        <input type="file" name="comp-endereco" placeholder="Anexar arquivo">      
+        <input type="file" name="comp-endereco" placeholder="Anexar arquivo">
+        <label id= "est-civ" for="est-civ">
+            Estado cívil
+        </label>
+        <br>
+        <div class="radio-container">
+        <input type="radio" name="solteiro" value="solteiro"> Solteiro
+        <input type="radio" name="comp-endereco" value="casado"> Casado
+        <input type="radio" name="comp-endereco" value="uni-est"> União Estável
+        <input type="radio" name="comp-endereco" value="viuvo"> Viúvo
+        
+        
     </div>
 </body>
 </html>
