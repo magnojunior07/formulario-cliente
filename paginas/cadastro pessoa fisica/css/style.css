@@ -24,6 +24,21 @@ input {
     width: 350px;
 }
 
+button {
+    margin-top: 25px;
+    font-size: 12px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+
 .formulario-container {
     font-weight: bolder;
     display: flex;
@@ -39,24 +54,77 @@ input {
     align-items: center;
 }
 
-input[type="file"] {
-    padding: 10px;
-    text-transform: uppercase;
+.radio-container {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    background-color: black;
-    color: white;
+}
+
+input[type="file"] {
     display: none;
 }
 
+input[type="date"] {
+    cursor: text;
+}
+
 #comp-endereco:hover {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(58, 57, 57);
 }
 
 #comp-endereco {
-    font-size: 15px;
+    margin-top: 5px;
+    font-size: 12px;
     padding: 10px;
     text-transform: uppercase;
     cursor: pointer;
     background-color: black;
     color: white;
 }
+#cert-crim {
+    margin-top: 5px;
+    font-size: 12px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#cert-crim:hover {
+    background-color: rgb(58, 57, 57);
+}
+
+#save {
+    margin-right: 10px;
+    width: 100px;
+    background-color: rgb(6, 112, 29);
+    color: white;
+    border: none;
+}
+
+#save:hover {
+    background-color: rgb(3, 83, 16);
+}
+#cancel {
+    margin-left: 10px;
+    width: 100px;
+    background-color:white;
+    color: black;
+    border-color: black;
+}
+
+#cancel:hover {
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }

@@ -19,11 +19,17 @@
         </label>
             <br>
         <input type="text" id="nome" placeholder="Digite seu nome completo"/>
+        
+        <label for="nasc">
+            Data de nascimento
+        </label>
+            <br>
+        <input type="date" id="nasc">
         <label for="cpf">
             CPF
         </label>
             <br>
-        <input type="text" id="cpf" placeholder="Digite seu CPF"/>
+        <input type="number" id="cpf" placeholder="Digite seu CPF"/>
         <label for="email">
             e-mail
         </label>
@@ -45,10 +51,10 @@
             <br>      
         <input type="number" id="numero" placeholder="Número"/>
         <label for="cep">
-            Cep
+            CEP
         </label>
             <br>
-        <input type="number" id="cep" placeholder="Cep"/>
+        <input type="number" id="cep" placeholder="CEP"/>
         <label>
             Comprovante de residência
         </label>
@@ -56,7 +62,34 @@
             Anexar arquivo
         </label>
         <br>
-        <input type="file" name="comp-endereco" placeholder="Anexar arquivo">      
+        <input type="file" name="comp-endereco">
+        <label>
+            Certidão Negativa Cível/Criminal
+        </label>
+        <label id= "cert-crim" for="cert-crim">
+            Anexar arquivo
+        </label>
+        <br>
+        <input type="file" name="cert-crim">
+        <label id= "est-civ" for="est-civ">
+            Estado cívil
+        </label>
+        <br>
+        <div class="radio-container">
+            <input type="radio" name="est-civ" value="solteiro" id="solteiro">
+                 <label for="solteiro">Solteiro</label>
+            <input type="radio" name="est-civ" value="casado" id="casado">
+                <label for="casado">Casado</label>
+            <input type="radio" name="est-civ" value="uni-est" id="uni-est">
+                <label for="uni-est">União Estável</label>
+            <input type="radio" name="est-civ" value="viuvo" id="viuvo">
+                <label for="viuvo">Viúvo</label>
+            <br>
+        </div>
+        <div class="button"> 
+            <button id="save" type="submit">salvar</button>        
+            <button id="cancel" type="submit">cancelar</button> 
+        </div>       
     </div>
 </body>
 </html>
