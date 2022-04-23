@@ -135,16 +135,25 @@ input[type=number]::-webkit-inner-spin-button,
         width: 50%;
     }
 }
+
 @media (max-width: 730px) {
 
     .radio-container {
         width: 70%;
     }
 }
+
 @media (max-width: 560px) {
 
     .radio-container {
         width: 90%;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .radio-container {
+        width: 100%;
     }
 }
 
