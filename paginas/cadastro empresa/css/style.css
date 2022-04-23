@@ -1,9 +1,50 @@
-header {
+body {
     font-family: "Roboto", monospace;
+}
+
+header {
     background-color: black;
     padding: 10px;
     margin: -10px -10px;
     margin-bottom: 10px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    font-size: 20px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    width: 350px;
+}
+
+button {
+    margin-top: 25px;
+    font-size: 12px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+
+.formulario-container {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .cabecalho {
@@ -12,3 +53,69 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="date"] {
+    cursor: text;
+}
+
+#comp-endereco:hover {
+    background-color: rgb(58, 57, 57);
+}
+
+#comp-endereco {
+    margin-top: 5px;
+    font-size: 12px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+#comp-renda {
+    margin-top: 5px;
+    font-size: 12px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#comp-renda:hover {
+    background-color: rgb(58, 57, 57);
+}
+
+#save {
+    margin-right: 10px;
+    width: 100px;
+    background-color: rgb(6, 112, 29);
+    color: white;
+    border: none;
+}
+
+#save:hover {
+    background-color: rgb(3, 83, 16);
+}
+#cancel {
+    margin-left: 10px;
+    width: 100px;
+    background-color:white;
+    color: black;
+    border-color: black;
+}
+
+#cancel:hover {
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
