@@ -13,68 +13,69 @@
         Cadastro Empresa
         </h1>
     </header>
-    <div class="formulario-container">
-        <label for="nome">
-            Nome da Empresa
-        </label>
+    <form>
+        <div class="formulario-container">
+            <label for="nome">
+                Nome da Empresa
+            </label>
+                <br>
+            <input type="text" id="nome" placeholder="Digite o nome da empresa">
+            <label for="nasc">
+                Data de fundação
+            </label>
+                <br>
+            <input type="date" id="nasc">
+            <label for="cnpj">
+                CNPJ
+            </label>
+                <br>
+            <input type="number" id="cnpj" placeholder="Digite seu CNPJ"/>
+            <label for="cnae">
+                CNAE
+            </label>
+                <br>
+            <input type="number" id="cnae" placeholder="Digite o código CNAE da empresa"/>
+            <label for="email">
+                e-mail institucional
+            </label>
+                <br>
+            <input type="text" id="email" placeholder="Digite o e-mail institucional"/>
+            <label for="endereco">
+                Endereço da sede da empresa
+            </label>
+                <br>
+            <input type="text" id="endereco" placeholder="Endereço da sede"/>
+            <label for="setor-jur">
+                Localização setor jurídico
+            </label>
+                <br>
+            <input type="text" id="setor-jur" placeholder="Setor Jurídico"/>        
+            <label for="cep">
+                CEP
+            </label>
+                <br>
+            <input type="number" id="cep" placeholder="CEP"/>
+            <label>
+                Comprovante de endereço
+            </label>
+            <label class= "files-container" for="comp-endereco">
+                Anexar arquivo
+            </label>
             <br>
-        <input type="text" id="nome" placeholder="Digite o nome da empresa">
-        
-        <label for="nasc">
-            Data de fundação
-        </label>
+            <label>
+                Comprovante de renda
+            </label>
+            <input type="file" id="comp-renda">
+            <label class= "files-container" for="comp-renda">
+                Anexar arquivo
+            </label>
             <br>
-        <input type="date" id="nasc">
-        <label for="cnpj">
-            CNPJ
-        </label>
-            <br>
-        <input type="number" id="cnpj" placeholder="Digite seu CNPJ"/>
-        <label for="cnae">
-            CNAE
-        </label>
-            <br>
-        <input type="number" id="cnae" placeholder="Digite o código CNAE da empresa"/>
-        <label for="email">
-            e-mail institucional
-        </label>
-            <br>
-        <input type="text" id="email" placeholder="Digite o e-mail institucional"/>
-        <label for="endereco">
-            Endereço da sede da empresa
-        </label>
-            <br>
-        <input type="text" id="endereco" placeholder="Endereço da sede"/>
-        <label for="setor-jur">
-            Localização setor jurídico
-        </label>
-            <br>
-        <input type="text" id="setor-jur" placeholder="Setor Jurídico"/>        
-        <label for="cep">
-            CEP
-        </label>
-            <br>
-        <input type="number" id="cep" placeholder="CEP"/>
-        <label>
-            Comprovante de endereço
-        </label>
-        <label id= "comp-endereco" for="comp-endereco">
-            Anexar arquivo
-        </label>
-        <br>
-        <label>
-            Comprovante de renda
-        </label>
-        <input type="file" name="comp-renda">
-        <label id= "comp-renda" for="comp-renda">
-            Anexar arquivo
-        </label>
-        <br>
-        <input type="file" name="comp-renda">
-        <div class="button"> 
-            <button id="save" type="submit">salvar</button>        
-            <button id="cancel" type="submit">cancelar</button> 
-        </div>       
-    </div>
+            <input type="file" id="comp-renda">
+            <div class="button"> 
+                <button id="save" type="submit">salvar</button>        
+                <button id="cancel" type="submit">cancelar</button> 
+            </div>       
+        </div>
+    </form>
 </body>
 </html>

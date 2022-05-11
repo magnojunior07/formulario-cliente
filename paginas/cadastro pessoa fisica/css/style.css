@@ -71,31 +71,18 @@ input[type="date"] {
     cursor: text;
 }
 
-#comp-endereco:hover {
+.files-container:hover {
     background-color: rgb(58, 57, 57);
 }
 
-#comp-endereco {
-    margin-top: 5px;
+.files-container {
+    margin-top: 10px;
     font-size: 12px;
     padding: 10px;
     text-transform: uppercase;
     cursor: pointer;
     background-color: black;
     color: white;
-}
-#cert-crim {
-    margin-top: 5px;
-    font-size: 12px;
-    padding: 10px;
-    text-transform: uppercase;
-    cursor: pointer;
-    background-color: black;
-    color: white;
-}
-
-#cert-crim:hover {
-    background-color: rgb(58, 57, 57);
 }
 
 #save {
