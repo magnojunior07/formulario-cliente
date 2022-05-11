@@ -20,6 +20,7 @@ save.addEventListener('click', () => {
             form[i].setCustomValidity('Campo obrigatório')
         } else {
             form[i].style.borderColor = 'green'
+            form[i].required = 'false'
         }
     }
 })
