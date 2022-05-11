@@ -100,16 +100,17 @@ input[type="date"] {
 #save:hover {
     background-color: rgb(3, 83, 16);
 }
+
 #cancel {
     margin-left: 10px;
     width: 100px;
     background-color:white;
-    color: black;
-    border-color: black;
+    color: rgb(170, 4, 4);
+    border-color: rgb(170, 4, 4);
 }
 
 #cancel:hover {
-    background-color: black;
+    background-color:  rgb(170, 4, 4);
     color: white;
     text-decoration: underline;
 }
