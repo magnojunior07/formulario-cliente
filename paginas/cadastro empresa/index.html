@@ -13,48 +13,48 @@
         Cadastro Empresa
         </h1>
     </header>
-    <form>
+    <form action="" method="post">
         <div class="formulario-container">
             <label for="nome">
                 Nome da Empresa
             </label>
                 <br>
-            <input type="text" id="nome" placeholder="Digite o nome da empresa">
+            <input type="text" id="nome" placeholder="Digite o nome da empresa" required=nome>
             <label for="nasc">
                 Data de fundação
             </label>
                 <br>
-            <input type="date" id="nasc">
+            <input type="date" id="nasc" required=nasc>
             <label for="cnpj">
                 CNPJ
             </label>
                 <br>
-            <input type="number" id="cnpj" placeholder="Digite seu CNPJ"/>
+            <input type="number" id="cnpj" placeholder="Digite seu CNPJ" required=cnpj/>
             <label for="cnae">
                 CNAE
             </label>
                 <br>
-            <input type="number" id="cnae" placeholder="Digite o código CNAE da empresa"/>
+            <input type="number" id="cnae" placeholder="Digite o código CNAE da empresa" required=cnae/>
             <label for="email">
                 e-mail institucional
             </label>
                 <br>
-            <input type="text" id="email" placeholder="Digite o e-mail institucional"/>
+            <input type="text" id="email" placeholder="Digite o e-mail institucional" required=email/>
             <label for="endereco">
                 Endereço da sede da empresa
             </label>
                 <br>
-            <input type="text" id="endereco" placeholder="Endereço da sede"/>
+            <input type="text" id="endereco" placeholder="Endereço da sede" required=endereco/>
             <label for="setor-jur">
                 Localização setor jurídico
             </label>
                 <br>
-            <input type="text" id="setor-jur" placeholder="Setor Jurídico"/>        
+            <input type="text" id="setor-jur" placeholder="Setor Jurídico" required=setor-jur/>        
             <label for="cep">
                 CEP
             </label>
                 <br>
-            <input type="number" id="cep" placeholder="CEP"/>
+            <input type="number" id="cep" placeholder="CEP" required=cep/>
             <label>
                 Comprovante de endereço
             </label>
@@ -65,17 +65,18 @@
             <label>
                 Comprovante de renda
             </label>
-            <input type="file" id="comp-renda">
+            <input type="file" id="comp-endereco" required=comp-endereco>
             <label class= "files-container" for="comp-renda">
                 Anexar arquivo
             </label>
             <br>
-            <input type="file" id="comp-renda">
+            <input type="file" id="comp-renda" required="comp-renda">
             <div class="button"> 
                 <button id="save" type="submit">salvar</button>        
                 <button id="cancel" type="submit">cancelar</button> 
             </div>       
         </div>
     </form>
+    <script src="./script/script.js"></script>
 </body>
 </html>
