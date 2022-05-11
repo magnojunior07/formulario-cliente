@@ -13,54 +13,54 @@
         Cadastro Pessoa Física
         </h1>
     </header>
-    <form>
+    <form action="" method="post">
         <div class="formulario-container">
             <label for="nome">
                 Nome Completo
             </label>
                 <br>
-            <input type="text" id="nome" placeholder="Digite seu nome completo"/>
+            <input type="text" id="nome" placeholder="Digite seu nome completo" required=nome/>
             
             <label for="nasc">
                 Data de nascimento
             </label>
                 <br>
-            <input type="date" id="nasc">
+            <input type="date" id="nasc" required name=nasc>
             <label for="cpf">
                 CPF
             </label>
                 <br>
-            <input type="number" id="cpf" placeholder="Digite seu CPF"/>
+            <input type="number" id="cpf" placeholder="Digite seu CPF" required=cpf/>
             <label for="email">
                 e-mail
             </label>
                 <br>
-            <input type="text" id="email" placeholder="Digite seu e-mail"/>
+            <input type="text" id="email" placeholder="Digite seu e-mail" required=email/>
             <label for="logradouro">
                 Logradouro
             </label>
                 <br>
-            <input type="text" id="logradouro" placeholder="Logradouro"/>
+            <input type="text" id="logradouro" placeholder="Logradouro" required=logradouro/>
             <label for="bairro">
                 Bairro
             </label>
                 <br>
-            <input type="text" id="bairro" placeholder="Bairro"/>
+            <input type="text" id="bairro" placeholder="Bairro" required=bairro/>
             <label for="numero">
                 Número
             </label>
                 <br>      
-            <input type="number" id="numero" placeholder="Número"/>
+            <input type="number" id="numero" placeholder="Número" required=numero/>
             <label for="cep">
                 CEP
             </label>
                 <br>
-            <input type="number" id="cep" placeholder="CEP"/>
+            <input type="number" id="cep" placeholder="CEP" required=cep/>
             <label>
                 Comprovante de residência
             </label>
             <label class= "files-container" for="comp-endereco">
-                <input type="file" id="comp-endereco">
+                <input type="file" id="comp-endereco" required=comp-endereco>
                 Anexar arquivo  
             </label>
             <br>
@@ -72,7 +72,7 @@
                 Anexar arquivo
             </label>
             <br>
-            <input type="file" id="cert-crim">
+            <input type="file" id="cert-crim" required=cert-crim>
             <label id= "est-civ" for="est-civ">
                 Estado cívil
             </label>
@@ -94,5 +94,6 @@
             </div>       
         </div>
     </form>
+    <script src="./script/script.js"></script>
 </body>
 </html>
