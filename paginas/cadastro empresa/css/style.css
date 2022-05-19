@@ -23,13 +23,25 @@ input {
     border-color: black;
     border-style: solid;
     width: 30%;
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: underline;
 }
 
 button {
-    font-size: 12px;
-    padding: 10px;
-    text-transform: uppercase;
-    cursor: pointer;
     background-color: white;
     color: black;
     border-radius: 5px;
@@ -57,10 +69,9 @@ button:hover {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 30px;
-}
-
 
 .formulario-container {
+
     font-weight: bolder;
     display: flex;
     flex-direction: column;
