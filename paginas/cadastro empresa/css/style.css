@@ -23,7 +23,7 @@ input {
     border-color: black;
     border-style: solid;
     width: 30%;
-
+}
 
 a {
     color: black;
@@ -69,6 +69,7 @@ button:hover {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 30px;
+}
 
 .formulario-container {
 
@@ -155,4 +156,3 @@ input[type=number]::-webkit-inner-spin-button,
         }
         
     }
-    
