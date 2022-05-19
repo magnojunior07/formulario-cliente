@@ -34,13 +34,6 @@ a:hover {
     color: white;
 }
 
-button:hover {
-    background-color: black;
-    color: white;
-    border: none;
-    text-decoration: underline;
-}
-
 button {
     background-color: white;
     color: black;
@@ -48,6 +41,7 @@ button {
     padding: 10px;
     cursor: pointer;
     border-color: black;
+    text-transform: uppercase;
 }
 
 button:hover {
