@@ -87,7 +87,8 @@ input {
 }
 
 #check:checked ~ .barra {
-    transform: translate(100%);
+    display: block;
+
 }
 
 #check:checked ~ .icone {
@@ -95,13 +96,13 @@ input {
 }
 
 .barra {
-	width: 50%;
+    display: none;
+	width: 60%;
 	height: 100%;
 	position: fixed;
 	background-color: #000000;
-	padding-top: 50px;
-	left: -50%;
-    transition: all .25s linear;
+	/* padding-top: 50px; */
+    /* transition: all .25s linear; */
 }
 
 .icone {
@@ -116,13 +117,16 @@ input {
 }
 
 .search-container {
-    margin-left: 15%;
+    display: flex;
+    margin-left: 5%;
     margin-top: 5%;
-    width: 180%;
+    width: 100%;
 }
 
 .search {
     border-radius: 10px;
+    width: 60%;
+    margin-right: 2%;
     border: none;
 }
 
@@ -163,7 +167,7 @@ td {
     border: solid 1px;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
 
     .barra {
         width: 40%;
@@ -171,17 +175,14 @@ td {
         position: fixed;
         background-color: #000000;
         padding-top: 50px;
-        left: -40%;
+        /* left: -40%; */
         transition: all .25s linear;
-    }
-
-    .search-container {
-        width: 50%;
     }
     table {
         font-size: small;
     }
 }
+
 @media (max-width: 400px) {
 
     .barra {
@@ -191,7 +192,7 @@ td {
         background-color: #000000;
         padding-top: 50px;
         left: -40%;
-        transition: all .25s linear;
+        /* transition: all .25s linear; */
     }
 
     .search-container {
