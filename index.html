@@ -4,11 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Login</title>
 </head>
 <body>
-    <header>    
+    <header>
+        <input type="checkbox" id="check">
+        <label class="icone" for="check"><i class="fa fa-bars" aria-hidden="true"></i></label>    
+        
+        <div class="barra">
+
+            <p class="title">
+                Lista de clientes
+            </p>
+
+           <div class="search-container">
+                <input class="search" type="text">
+                <button class="search-btn">pesquisar</button>
+            </div>
+
+            <div class="table">
+                <table>
+                    <thead>
+                        <th>ID</th>
+                        <th>NOME</th>
+                        <th>CPF/CNPJ</th>
+                    </thead>
+                    <tr>
+                        <td>01</td>
+                        <td>Darth Vader</td>
+                        <td>087.692.174-01</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>02</td>
+                        <td>Monkey D. Luffy</td>
+                        <td>679.842.315-87</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>03</td>
+                        <td>Son Goku</td>
+                        <td>574.622.711-65</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>04</td>
+                        <td>Luke Skywalker</td>
+                        <td>669.874.621.00</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>05</td>
+                        <td>Kurt Cobain</td>
+                        <td>777.865.254-81</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>06</td>
+                        <td>Freddie Mercury</td>
+                        <td>624.441.923-64</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>07</td>
+                        <td>John Lennon</td>
+                        <td>654.524.781-23</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        
+        
         <div class="cabecalho">
             <h1>
                 ÁREA DE LOGIN
@@ -41,5 +110,6 @@
             </a>
         </div>
     </div>
+    <script src="https://use.fontawesome.com/5dc6c19131.js"></script>
 </body>
 </html>
