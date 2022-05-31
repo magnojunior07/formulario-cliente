@@ -61,23 +61,37 @@ input {
     cursor: pointer;
 }
 
-.login-footer {
+.button {
     justify-content: center;
+    align-self: center;
     margin-top: 2%;
     display: flex;
-    width: 40%;
+    width: 80%;
 }
 
-.forgot-password {
-    color: #AA0404;
-    text-decoration: underline;
+.cancel {
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1.5%;
+    height: 35px;
+    width: 150%; 
+    font-size: 12px;
+    background-color: #AA0404;
     cursor: pointer;
-    margin-right: 2%;
+    margin-right: 100%;
+    margin-left: -60%;
 }
 
-.create-acount {
-    color: #035310;
-    text-decoration: underline;
-    margin-left: 2%;
+.save {
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1.5%;
+    height: 35px;
+    width: 180%; 
+    font-size: 12px;
+    background-color: #035310;
+    margin-left: 60%;
     cursor: pointer;
 }
